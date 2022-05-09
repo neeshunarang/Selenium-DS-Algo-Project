@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\naran\eclipse-workspace\DS-Algo-Project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 6 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC01_Registration" class="method navigator-link" hash-for-method="Registration(Neeshuindia, Neeshu1234)">Registration(Neeshuindia, Neeshu1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC01_Registration" class="method navigator-link" hash-for-method="Registration(neeshu, Neeshu1234)">Registration(neeshu, Neeshu1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC01_Registration" class="method navigator-link" hash-for-method="Registration(Neeshuindia, Neeshu1234)">Registration(Neeshuindia, Neeshu1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC01_Registration" class="method navigator-link" hash-for-method="Registration(neeshu, Neeshu1234)">Registration(neeshu, Neeshu1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC02_SignIn" class="method navigator-link" hash-for-method="SignInTest(neeshu, Neeshu1234)">SignInTest(neeshu, Neeshu1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC02_SignIn" class="method navigator-link" hash-for-method="SignInTest(neeshu, Neeshu1234)">SignInTest(neeshu, Neeshu1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC04_Arrays" class="method navigator-link" hash-for-method="ArraysTest">ArraysTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC04_Arrays" class="method navigator-link" hash-for-method="ArraysTest">ArraysTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC03_DataStructures" class="method navigator-link" hash-for-method="DataStructuresTest">DataStructuresTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC03_DataStructures" class="method navigator-link" hash-for-method="DataStructuresTest">DataStructuresTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC02_SignIn" class="method navigator-link" hash-for-method="SignInTest(Neeshuindia, Neeshu1234)">SignInTest(Neeshuindia, Neeshu1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC02_SignIn" class="method navigator-link" hash-for-method="SignInTest(Neeshuindia, Neeshu1234)">SignInTest(Neeshuindia, Neeshu1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC05_Stacks" class="method navigator-link" hash-for-method="StacksTest">StacksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DsAlgoProject.TestCases.TC05_Stacks" class="method navigator-link" hash-for-method="StacksTest">StacksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.DsAlgoProject.TestCases.TC01_Registration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Neeshuindia, Neeshu1234)">
+                  </a> <!-- Registration(Neeshuindia, Neeshu1234) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Neeshuindia, Neeshu1234)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NumpyNinja] but found [Registration]
+	at com.DsAlgoProject.TestCases.TC01_Registration.Registration(TC01_Registration.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(neeshu, Neeshu1234)">
+                  </a> <!-- Registration(neeshu, Neeshu1234) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(neeshu, Neeshu1234)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NumpyNinja] but found [Registration]
+	at com.DsAlgoProject.TestCases.TC01_Registration.Registration(TC01_Registration.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Neeshuindia, Neeshu1234)">
+                  </a> <!-- Registration(Neeshuindia, Neeshu1234) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Neeshuindia, Neeshu1234)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NumpyNinja] but found [Registration]
+	at com.DsAlgoProject.TestCases.TC01_Registration.Registration(TC01_Registration.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(neeshu, Neeshu1234)">
+                  </a> <!-- Registration(neeshu, Neeshu1234) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(neeshu, Neeshu1234)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NumpyNinja] but found [Registration]
+	at com.DsAlgoProject.TestCases.TC01_Registration.Registration(TC01_Registration.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.DsAlgoProject.TestCases.TC02_SignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInTest(neeshu, Neeshu1234)">
+                  </a> <!-- SignInTest(neeshu, Neeshu1234) -->
+                  <span class="method-name">SignInTest</span>
+                  <span class="parameters">(neeshu, Neeshu1234)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NumpyNinja] but found [Login]
+	at com.DsAlgoProject.TestCases.TC02_SignIn.SignInTest(TC02_SignIn.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInTest(neeshu, Neeshu1234)">
+                  </a> <!-- SignInTest(neeshu, Neeshu1234) -->
+                  <span class="method-name">SignInTest</span>
+                  <span class="parameters">(neeshu, Neeshu1234)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NumpyNinja] but found [Login]
+	at com.DsAlgoProject.TestCases.TC02_SignIn.SignInTest(TC02_SignIn.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DsAlgoProject.TestCases.TC03_DataStructures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DataStructuresTest">
+                  </a> <!-- DataStructuresTest -->
+                  <span class="method-name">DataStructuresTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DataStructuresTest">
+                  </a> <!-- DataStructuresTest -->
+                  <span class="method-name">DataStructuresTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DsAlgoProject.TestCases.TC04_Arrays</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ArraysTest">
+                  </a> <!-- ArraysTest -->
+                  <span class="method-name">ArraysTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ArraysTest">
+                  </a> <!-- ArraysTest -->
+                  <span class="method-name">ArraysTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DsAlgoProject.TestCases.TC05_Stacks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="StacksTest">
+                  </a> <!-- StacksTest -->
+                  <span class="method-name">StacksTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StacksTest">
+                  </a> <!-- StacksTest -->
+                  <span class="method-name">StacksTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DsAlgoProject.TestCases.TC02_SignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInTest(Neeshuindia, Neeshu1234)">
+                  </a> <!-- SignInTest(Neeshuindia, Neeshu1234) -->
+                  <span class="method-name">SignInTest</span>
+                  <span class="parameters">(Neeshuindia, Neeshu1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInTest(Neeshuindia, Neeshu1234)">
+                  </a> <!-- SignInTest(Neeshuindia, Neeshu1234) -->
+                  <span class="method-name">SignInTest</span>
+                  <span class="parameters">(Neeshuindia, Neeshu1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\naran\eclipse-workspace\DS-Algo-Project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.DsAlgoProject.Utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestonChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.DsAlgoProject.TestCases.TC01_Registration&quot;/&gt;
+      &lt;class name=&quot;com.DsAlgoProject.TestCases.TC02_SignIn&quot;/&gt;
+      &lt;class name=&quot;com.DsAlgoProject.TestCases.TC03_DataStructures&quot;/&gt;
+      &lt;class name=&quot;com.DsAlgoProject.TestCases.TC04_Arrays&quot;/&gt;
+      &lt;class name=&quot;com.DsAlgoProject.TestCases.TC05_Stacks&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestonChrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestonEdge&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.DsAlgoProject.TestCases.TC01_Registration&quot;/&gt;
+      &lt;class name=&quot;com.DsAlgoProject.TestCases.TC02_SignIn&quot;/&gt;
+      &lt;class name=&quot;com.DsAlgoProject.TestCases.TC03_DataStructures&quot;/&gt;
+      &lt;class name=&quot;com.DsAlgoProject.TestCases.TC04_Arrays&quot;/&gt;
+      &lt;class name=&quot;com.DsAlgoProject.TestCases.TC05_Stacks&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestonEdge --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestonChrome (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TestonEdge (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ArraysTest')
+data.setCell(0, 2, 'com.DsAlgoProject.TestCases.TC04_Arrays')
+data.setCell(0, 3, 17141);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ArraysTest')
+data.setCell(1, 2, 'com.DsAlgoProject.TestCases.TC04_Arrays')
+data.setCell(1, 3, 13967);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DataStructuresTest')
+data.setCell(2, 2, 'com.DsAlgoProject.TestCases.TC03_DataStructures')
+data.setCell(2, 3, 7862);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'StacksTest')
+data.setCell(3, 2, 'com.DsAlgoProject.TestCases.TC05_Stacks')
+data.setCell(3, 3, 7162);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'StacksTest')
+data.setCell(4, 2, 'com.DsAlgoProject.TestCases.TC05_Stacks')
+data.setCell(4, 3, 7040);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'DataStructuresTest')
+data.setCell(5, 2, 'com.DsAlgoProject.TestCases.TC03_DataStructures')
+data.setCell(5, 3, 5552);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'SignInTest')
+data.setCell(6, 2, 'com.DsAlgoProject.TestCases.TC02_SignIn')
+data.setCell(6, 3, 2791);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'SignInTest')
+data.setCell(7, 2, 'com.DsAlgoProject.TestCases.TC02_SignIn')
+data.setCell(7, 3, 2740);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Registration')
+data.setCell(8, 2, 'com.DsAlgoProject.TestCases.TC01_Registration')
+data.setCell(8, 3, 2587);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'SignInTest')
+data.setCell(9, 2, 'com.DsAlgoProject.TestCases.TC02_SignIn')
+data.setCell(9, 3, 2204);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SignInTest')
+data.setCell(10, 2, 'com.DsAlgoProject.TestCases.TC02_SignIn')
+data.setCell(10, 3, 1746);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Registration')
+data.setCell(11, 2, 'com.DsAlgoProject.TestCases.TC01_Registration')
+data.setCell(11, 3, 1736);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Registration')
+data.setCell(12, 2, 'com.DsAlgoProject.TestCases.TC01_Registration')
+data.setCell(12, 3, 1340);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Registration')
+data.setCell(13, 2, 'com.DsAlgoProject.TestCases.TC01_Registration')
+data.setCell(13, 3, 1071);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">16 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.DsAlgoProject.TestCases.TC03_DataStructures</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.DsAlgoProject.TestCases.TC04_Arrays</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.DsAlgoProject.TestCases.TC05_Stacks</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.DsAlgoProject.TestCases.TC02_SignIn</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DsAlgoProject.TestCases.TC01_Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Registration(Neeshuindia, Neeshu1234)</span>
+                <span class="method-start">19695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Registration(neeshu, Neeshu1234)</span>
+                <span class="method-start">24472 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DsAlgoProject.TestCases.TC02_SignIn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SignInTest(Neeshuindia, Neeshu1234)</span>
+                <span class="method-start">27859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignInTest(neeshu, Neeshu1234)</span>
+                <span class="method-start">30659 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DsAlgoProject.TestCases.TC03_DataStructures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DataStructuresTest</span>
+                <span class="method-start">33828 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DsAlgoProject.TestCases.TC04_Arrays</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ArraysTest</span>
+                <span class="method-start">41700 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DsAlgoProject.TestCases.TC05_Stacks</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">StacksTest</span>
+                <span class="method-start">58854 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DsAlgoProject.TestCases.TC01_Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown(Chrome)</span>
+                <span class="method-start">66028 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">67815 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Registration(Neeshuindia, Neeshu1234)</span>
+                <span class="method-start">72441 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Registration(neeshu, Neeshu1234)</span>
+                <span class="method-start">75087 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DsAlgoProject.TestCases.TC02_SignIn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SignInTest(Neeshuindia, Neeshu1234)</span>
+                <span class="method-start">77221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignInTest(neeshu, Neeshu1234)</span>
+                <span class="method-start">79965 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DsAlgoProject.TestCases.TC03_DataStructures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DataStructuresTest</span>
+                <span class="method-start">83183 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DsAlgoProject.TestCases.TC04_Arrays</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ArraysTest</span>
+                <span class="method-start">88743 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DsAlgoProject.TestCases.TC05_Stacks</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">StacksTest</span>
+                <span class="method-start">102720 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DsAlgoProject.TestCases.TC01_Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown(Edge)</span>
+                <span class="method-start">109767 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

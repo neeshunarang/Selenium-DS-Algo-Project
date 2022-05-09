@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.DsAlgoProject.Utilities.Reporting" />
+	</listeners>
+	<test name="TestonChrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.DsAlgoProject.TestCases.TC01_Registration" />
+			<class name="com.DsAlgoProject.TestCases.TC02_SignIn" />
+			<class name="com.DsAlgoProject.TestCases.TC03_DataStructures" />
+			<class name="com.DsAlgoProject.TestCases.TC04_Arrays" />
+			<class name="com.DsAlgoProject.TestCases.TC05_Stacks" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="TestonEdge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="com.DsAlgoProject.TestCases.TC01_Registration" />
+			<class name="com.DsAlgoProject.TestCases.TC02_SignIn" />
+			<class name="com.DsAlgoProject.TestCases.TC03_DataStructures" />
+			<class name="com.DsAlgoProject.TestCases.TC04_Arrays" />
+			<class name="com.DsAlgoProject.TestCases.TC05_Stacks" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,158 @@
+[INFO ] 2022-05-09 13:50:08.874 [main] BaseClass - Chrome browser Opened
+[INFO ] 2022-05-09 13:50:12.873 [main] BaseClass - Clicked on Register link
+[INFO ] 2022-05-09 13:50:12.957 [main] BaseClass - Entered value for username
+[INFO ] 2022-05-09 13:50:13.047 [main] BaseClass - Entered value for password
+[INFO ] 2022-05-09 13:50:13.154 [main] BaseClass - Entered value for confirm password
+[INFO ] 2022-05-09 13:50:13.397 [main] BaseClass - Clicked on Register button
+[INFO ] 2022-05-09 13:50:15.100 [main] BaseClass - Clicked on Register link
+[INFO ] 2022-05-09 13:50:15.185 [main] BaseClass - Entered value for username
+[INFO ] 2022-05-09 13:50:15.302 [main] BaseClass - Entered value for password
+[INFO ] 2022-05-09 13:50:15.401 [main] BaseClass - Entered value for confirm password
+[INFO ] 2022-05-09 13:50:15.694 [main] BaseClass - Clicked on Register button
+[INFO ] 2022-05-09 13:50:17.133 [main] BaseClass - Clicked on Login link
+[INFO ] 2022-05-09 13:50:17.194 [main] BaseClass - Entered Username
+[INFO ] 2022-05-09 13:50:17.293 [main] BaseClass - Entered password
+[INFO ] 2022-05-09 13:50:18.051 [main] BaseClass - Clicked on Login button
+[INFO ] 2022-05-09 13:50:18.484 [main] BaseClass - Clicked on Logout button
+[INFO ] 2022-05-09 13:50:18.750 [main] BaseClass - Clicked on Login link
+[INFO ] 2022-05-09 13:50:18.810 [main] BaseClass - Entered Username
+[INFO ] 2022-05-09 13:50:18.894 [main] BaseClass - Entered password
+[INFO ] 2022-05-09 13:50:19.322 [main] BaseClass - Clicked on Login button
+[INFO ] 2022-05-09 13:50:20.735 [main] BaseClass - Clicked on Login link
+[INFO ] 2022-05-09 13:50:20.807 [main] BaseClass - Entered Username
+[INFO ] 2022-05-09 13:50:20.896 [main] BaseClass - Entered password
+[INFO ] 2022-05-09 13:50:21.652 [main] BaseClass - Clicked on Login button
+[INFO ] 2022-05-09 13:50:22.203 [main] BaseClass - Clicked on Get Started button of Data Structure
+[INFO ] 2022-05-09 13:50:22.587 [main] BaseClass - Clicked on Time Complexity link
+[INFO ] 2022-05-09 13:50:23.714 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:50:24.053 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:24.152 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:24.489 [main] BaseClass - Back to Data Structure Page
+[INFO ] 2022-05-09 13:50:24.800 [main] BaseClass - Clicked on Practice Questions
+[INFO ] 2022-05-09 13:50:24.844 [main] BaseClass - Back to Data Structure Page
+[INFO ] 2022-05-09 13:50:25.261 [main] BaseClass - Clicked on Data Structure dropdown
+[INFO ] 2022-05-09 13:50:25.726 [main] BaseClass - Select Array from dropdown
+[INFO ] 2022-05-09 13:50:26.287 [main] BaseClass - Clicked on Arrays Python link
+[INFO ] 2022-05-09 13:50:26.738 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:50:27.005 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:27.098 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:27.647 [main] BaseClass - Clicked on Arrays Using list
+[INFO ] 2022-05-09 13:50:28.448 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:50:28.735 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:28.801 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:29.373 [main] BaseClass - Clicked on Basic Operations in List
+[INFO ] 2022-05-09 13:50:29.827 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:50:30.262 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:30.340 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:30.391 [main] BaseClass - Alert message is: SyntaxError: bad input on line 1
+[INFO ] 2022-05-09 13:50:30.957 [main] BaseClass - Clicked on Applications of Array
+[INFO ] 2022-05-09 13:50:31.366 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:50:31.713 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:31.789 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:33.045 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:33.128 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:34.066 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:34.135 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:34.152 [main] BaseClass - Alert message is: SyntaxError: bad input on line 1
+[INFO ] 2022-05-09 13:50:35.100 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:35.189 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:35.972 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:36.029 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:36.047 [main] BaseClass - Alert message is: SyntaxError: bad input on line 1
+[INFO ] 2022-05-09 13:50:36.274 [main] BaseClass - Back to Array Page
+[INFO ] 2022-05-09 13:50:36.674 [main] BaseClass - Clicked on Data Structure dropdown
+[INFO ] 2022-05-09 13:50:37.066 [main] BaseClass - Select Stack from dropdown
+[INFO ] 2022-05-09 13:50:37.538 [main] BaseClass - Clicked Operations in stack
+[INFO ] 2022-05-09 13:50:38.026 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:50:38.390 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:38.470 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:38.915 [main] BaseClass - Clicked Implementation
+[INFO ] 2022-05-09 13:50:39.393 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:50:39.793 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:39.849 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:39.863 [main] BaseClass - Alert message is: SyntaxError: bad input on line 1
+[INFO ] 2022-05-09 13:50:40.338 [main] BaseClass - Clicked Applications
+[INFO ] 2022-05-09 13:50:40.784 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:50:41.011 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:41.066 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:41.081 [main] BaseClass - Alert message is: SyntaxError: bad input on line 1
+[INFO ] 2022-05-09 13:50:41.781 [main] BaseClass - ChromeDriver Closed
+[INFO ] 2022-05-09 13:50:44.077 [main] BaseClass - Edge browser Opened
+[INFO ] 2022-05-09 13:50:45.968 [main] BaseClass - Clicked on Register link
+[INFO ] 2022-05-09 13:50:46.079 [main] BaseClass - Entered value for username
+[INFO ] 2022-05-09 13:50:46.175 [main] BaseClass - Entered value for password
+[INFO ] 2022-05-09 13:50:46.308 [main] BaseClass - Entered value for confirm password
+[INFO ] 2022-05-09 13:50:46.622 [main] BaseClass - Clicked on Register button
+[INFO ] 2022-05-09 13:50:47.768 [main] BaseClass - Clicked on Register link
+[INFO ] 2022-05-09 13:50:47.813 [main] BaseClass - Entered value for username
+[INFO ] 2022-05-09 13:50:47.892 [main] BaseClass - Entered value for password
+[INFO ] 2022-05-09 13:50:47.977 [main] BaseClass - Entered value for confirm password
+[INFO ] 2022-05-09 13:50:48.235 [main] BaseClass - Clicked on Register button
+[INFO ] 2022-05-09 13:50:49.436 [main] BaseClass - Clicked on Login link
+[INFO ] 2022-05-09 13:50:49.489 [main] BaseClass - Entered Username
+[INFO ] 2022-05-09 13:50:49.579 [main] BaseClass - Entered password
+[INFO ] 2022-05-09 13:50:50.403 [main] BaseClass - Clicked on Login button
+[INFO ] 2022-05-09 13:50:50.804 [main] BaseClass - Clicked on Logout button
+[INFO ] 2022-05-09 13:50:51.092 [main] BaseClass - Clicked on Login link
+[INFO ] 2022-05-09 13:50:51.140 [main] BaseClass - Entered Username
+[INFO ] 2022-05-09 13:50:51.219 [main] BaseClass - Entered password
+[INFO ] 2022-05-09 13:50:51.645 [main] BaseClass - Clicked on Login button
+[INFO ] 2022-05-09 13:50:52.942 [main] BaseClass - Clicked on Login link
+[INFO ] 2022-05-09 13:50:53.002 [main] BaseClass - Entered Username
+[INFO ] 2022-05-09 13:50:53.104 [main] BaseClass - Entered password
+[INFO ] 2022-05-09 13:50:53.896 [main] BaseClass - Clicked on Login button
+[INFO ] 2022-05-09 13:50:54.305 [main] BaseClass - Clicked on Get Started button of Data Structure
+[INFO ] 2022-05-09 13:50:54.713 [main] BaseClass - Clicked on Time Complexity link
+[INFO ] 2022-05-09 13:50:55.803 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:50:56.054 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:56.162 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:56.329 [main] BaseClass - Back to Data Structure Page
+[INFO ] 2022-05-09 13:50:56.592 [main] BaseClass - Clicked on Practice Questions
+[INFO ] 2022-05-09 13:50:56.678 [main] BaseClass - Back to Data Structure Page
+[INFO ] 2022-05-09 13:50:57.064 [main] BaseClass - Clicked on Data Structure dropdown
+[INFO ] 2022-05-09 13:50:57.471 [main] BaseClass - Select Array from dropdown
+[INFO ] 2022-05-09 13:50:57.897 [main] BaseClass - Clicked on Arrays Python link
+[INFO ] 2022-05-09 13:50:58.360 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:50:58.619 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:50:58.715 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:50:59.276 [main] BaseClass - Clicked on Arrays Using list
+[INFO ] 2022-05-09 13:50:59.736 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:50:59.977 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:51:00.071 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:51:00.597 [main] BaseClass - Clicked on Basic Operations in List
+[INFO ] 2022-05-09 13:51:01.050 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:51:01.319 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:51:01.383 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:51:01.416 [main] BaseClass - Alert message is: SyntaxError: bad input on line 1
+[INFO ] 2022-05-09 13:51:01.959 [main] BaseClass - Clicked on Applications of Array
+[INFO ] 2022-05-09 13:51:02.424 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:51:02.677 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:51:02.746 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:51:03.895 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:51:03.963 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:51:04.780 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:51:04.842 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:51:04.861 [main] BaseClass - Alert message is: SyntaxError: bad input on line 1
+[INFO ] 2022-05-09 13:51:05.760 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:51:05.820 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:51:06.693 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:51:06.754 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:51:06.771 [main] BaseClass - Alert message is: SyntaxError: bad input on line 1
+[INFO ] 2022-05-09 13:51:07.137 [main] BaseClass - Back to Array Page
+[INFO ] 2022-05-09 13:51:07.563 [main] BaseClass - Clicked on Data Structure dropdown
+[INFO ] 2022-05-09 13:51:07.890 [main] BaseClass - Select Stack from dropdown
+[INFO ] 2022-05-09 13:51:08.405 [main] BaseClass - Clicked Operations in stack
+[INFO ] 2022-05-09 13:51:08.916 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:51:09.221 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:51:09.323 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:51:09.742 [main] BaseClass - Clicked Implementation
+[INFO ] 2022-05-09 13:51:10.193 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:51:10.455 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:51:10.511 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:51:10.535 [main] BaseClass - Alert message is: SyntaxError: bad input on line 1
+[INFO ] 2022-05-09 13:51:10.993 [main] BaseClass - Clicked Applications
+[INFO ] 2022-05-09 13:51:11.451 [main] BaseClass - Clicked on Try here button
+[INFO ] 2022-05-09 13:51:11.705 [main] BaseClass - Entered command in Editor
+[INFO ] 2022-05-09 13:51:11.775 [main] BaseClass - Clicked on Run button
+[INFO ] 2022-05-09 13:51:11.828 [main] BaseClass - Alert message is: SyntaxError: bad input on line 1
+[INFO ] 2022-05-09 13:51:12.569 [main] BaseClass - EdgeDriver Closed
